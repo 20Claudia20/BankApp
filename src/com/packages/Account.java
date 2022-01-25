@@ -12,6 +12,8 @@ public class Account {
         Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine();
 
-
+            if (userInput == 1) {
+                myAccount.userChoice();
+            }
+      }
     }
-}
